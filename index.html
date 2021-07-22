@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jeremy and Brenna Trivia</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <script src="answers.js"></script>
+        <link rel=“image_src” href="Images/Bamboozle.png" width="1200"/>    
+       
+    </head>
+<body>
+   <div id="fixed">
+    <div id="layout-container">
+    <div class="row">
+        <div class="left-column">
+            <img src="Images/Bamboozle.png" height="120em">
+        </div>
+        <div class="right-column">
+            <input id="textbox" type="text" value="" ReadOnly=True >
+        </div>
+
+    </div>
+        
+        <table class="content-area" cellpadding="0" cellspacing="0" dir="ltr" style="height:52px; width:37em; position:fixed; background-color:white" >
+   
+
+
+        <tbody>
+    <tr>
+        <td style="width:500">
+            
+            How well do you know us? Take the Quiz and see how you do!
+        </td>
+        <td style="height:18px; width:5em"><img src="Images/Brenna.png" height="80em" style="margin-top: 10px;"></td>
+        <td style="height:18px; width:5em"><img src="Images/Jeremy.png" height="80em"></td>
+    </tr>
+</tbody>
+</table>
+</div>
+</div>
+    <div>
+    
+
+        </div>
+
+    </div>
+    <div class="spacer">
+        &nbsp;</div>
+    <!-- layout container-->
+    <div class="fade-in"></div>id="layout-container">
+        
+        
+
+            <table class="content-area" cellpadding="0" cellspacing="0" dir="ltr" style="height:522px; width:35.9em" id="mytable" >
+                <tbody>
+                    
+                    
+                    <tr>
+                        <td style="height:18px; width:30em">
+                        <h4>1. Who makes the coffee in the morning?</h4>
+                        </td>
+                        <td style="height:18px; width:9em"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                             name="question[1]" value='correct'></td>
+                        <td style="height:18px; width:4em;"><input class="userinput" type="radio" onclick="checkAnswer()"
+                             name="question[1]"></td>
+                
+                    </tr>
+                   
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>2. Who first mentioned barbeque on the first date?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"checkAnswer()
+                            name="question[2]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()" checkAnswer()
+                            name="question[2]" value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:36px; width:436px">
+                        <h4>3. Who thought the other was going to break up with them over a coffee date?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[3]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[3]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>4. Who has swallowed a minnow?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[4]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[4]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>5. Who said I love you first?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[5]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[5]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>6. Who found their current home?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[6]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[6]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>7. Who has more shoes?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[7]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[7]"value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>8. Who won the first time they played Catan together?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[8]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[8]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>9. Who cooked food for the other first?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[9]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[9]"value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>10. Who&rsquo;s been accosted in their tent by a bear?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[10]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[10]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>11. Who&rsquo;s kissed a catfish?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[11]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[11]" value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>12. Who&rsquo;s been to Idaho?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[12]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[12]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>13. Who&rsquo;s hiked more 14ers?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[13]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[13]"value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>14. Who&rsquo;s been to more national parks?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[14]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[14]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>15. Who has had more roommates?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[15]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[15]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>16. Who has visited more countries?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[16]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[16]"value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:36px; width:436px">
+                        <h4>17. Who has a scar in the shape of the first letter of their name on their body?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[17]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[17]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>18. Who had a Mac computer first?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[18]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[18]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>19. Who has spent more nights in a tent in the last 2 years?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[19]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[19]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>20. Who hiked/approached more miles in 2020?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[20]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[20]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>21. Who takes the most photos in the relationship?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[21]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[21]" value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>22. In the world, who has been the furthest south?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[22]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[22]"value='correct'></td>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>23. Who has had more pets?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[23]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[23]" value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>24. Who has had the least amount of speeding tickets?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[24]" ></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[24]"value='correct'></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>25. Who has ridden their bike farther?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[25]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[25]"></td>
+                    </tr>
+                    <tr>
+                        <td style="height:18px; width:436px">
+                        <h4>26. In the world, who has been the furthest north?</h4>
+                        </td>
+                        <td style="height:18px; width:40px"> <input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[26]" value='correct'></td>
+                       <td style="height:18px; width:58px"><input class="userinput" type="radio" onclick="checkAnswer()"
+                            name="question[26]"></td>
+                    </tr>
+                </tbody>
+            </table>
+       <!--submit button-->
+       
+</form>
+          <!--
+            <button onclick="checkPassword()" class="userinput">Submit!</button>
+          -->
+          <input type="button" class= "usersubmit" name="SubmitButton" value="Submit" onClick="correct()">
+          <!--reset button
+              <input type="reset" class= "usersubmit" name="ResetButton" value="Reset Test" onClick="ResetForms()">-->
+        <div></div>
+        </div>
+    </div>
+    <div >
+       
+    </div>
+</body>
+<footer>
+   
+
+</footer>
+
+</html>

@@ -1,0 +1,291 @@
+
+           
+#nav {
+    border-style: solid;
+    border-width: 0.15em;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    z-index:1 !important;
+} 
+#nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index:1 !important;
+}
+
+
+.row {
+    display: flex; 
+}
+.left-column {
+ flex: 40%;
+}
+.right-column {
+   
+    flex: 60%;  
+    
+}
+.header {
+    height: 10vh; 
+    flex: 50%;  
+    margin: 1em;
+    margin-left:2em;
+
+
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.headerfloat{
+    position: fixed;
+    margin-top: 1em;
+    background-color: white;
+    width:100%;
+    padding: 1em;
+
+
+}
+#top-col-home {
+    background-image: url(images/Bamboozle.png);
+    margin-right:3em;
+    
+}
+#brenna{
+    background-image: url(images/Brenna.png);
+}
+#jeremy{
+    background-image: url(images/Jeremy.png);  
+}
+.main-heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4em;
+    color: #000000;padding: top 1em;
+}
+
+.content-area {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 1em;
+    background-color:white;
+    
+}
+.content-header {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 1em;
+    
+}
+#layout-container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol {
+    color: #030002;
+}
+
+#password-area {
+    margin-top: 5em;
+}
+
+.usersubmit{
+    width: 10em;
+    height: 3em;
+    background-color: black;
+    font-weight: bold;
+    color: white; /* SET COLOR IN WHITE */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2em;
+    border-color: #fff1f9;
+    border-radius: .2em;
+    margin:1em;
+    margin-left:5em;
+}
+#textbox{
+    width: 10em;
+    height: 3em;
+    font-weight: bold;
+    color: black; /* SET COLOR IN WHITE */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2em;
+    border-color: #fff1f9;
+    border-width: 0em;
+    position: center;
+
+}
+
+.correct{
+    color:green;
+}
+
+.incorrect{
+    color:red; 
+    font-weight: bolder;
+}
+
+.popUpYes
+{
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  color: white; /* SET COLOR IN WHITE */
+}
+
+.usersubmit:hover
+{
+    
+  background-color: white;
+  color: black; /* SET COLOR IN BLACK */
+} 
+
+
+main {
+    /* make sure to cover the screen */
+    min-height: 100vh;
+  
+    /* need a solid bg to hide the footer */
+    background: white;
+  
+    /* put it on top */
+    position: relative;
+    z-index: 1;
+  
+    padding: 2rem;
+  }
+  
+  footer {
+    /* place on the bottom */
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:white;
+    display: grid;
+    place-items: center;
+    padding: .1em; /* depends on the height of your footer content */
+  }
+  body {
+    margin: 0px;
+    }
+
+
+  .userinput {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .userinput input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+    
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+   
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+    
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+    
+  }
+
+
+  
+  input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1em;
+    
+
+    
+}
+
+input:hover[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 1.3em;
+   
+    
+}
+
+#mytable{
+    margin-top:1em;
+    margin-left:1em;
+}
+
+#fixed
+{
+    position: fixed;
+    width: 100%;
+    height: 15em;
+    background-color:white;
+    z-index:1 !important;
+    
+}
+
+.spacer
+{
+    width: 100%;
+    height: 220px;
+
+}
+
